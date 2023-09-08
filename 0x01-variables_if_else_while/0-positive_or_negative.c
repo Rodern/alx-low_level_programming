@@ -1,10 +1,11 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Description: Always 0 (Success)
- * Author: Alain Kimbu
+ * Description: 0
  */
 int main(void)
 {
