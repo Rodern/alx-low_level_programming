@@ -11,7 +11,7 @@ int main(void)
 	const char q = '"';
 	const char *str2 = " - Dora Korpar, 2015-10-19\n";
 	const int str_length1 = 31;
-	const int str_length2 = 28;
+	const int str_length2 = 27;
 	/* Printing the string using fwrite */
 	fwrite(str1, sizeof(char), str_length1, stdout);
 	putchar(q);
