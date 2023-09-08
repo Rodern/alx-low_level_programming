@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * file_name: 6-size.c
  * main - Entry point
+ *
  * Description: Program to print the size of variables of different types
  * Return: Always 0 (Success)
  * Author: Alain Kimbu
