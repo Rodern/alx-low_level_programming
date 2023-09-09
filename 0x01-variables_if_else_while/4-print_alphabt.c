@@ -12,7 +12,8 @@ int main(void)
 
 	/* starting from 97 to 122, are all lowercase letters */
 	do {
-		putchar(i);
+		if (i != 101 && i != 113)
+			putchar(i);
 		i++;
 	} while (i < 123);
 	putchar('\n');
