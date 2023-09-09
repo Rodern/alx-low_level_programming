@@ -14,7 +14,7 @@ int main(void)
 	do {
 		putchar(i);
 		i++;
-	} while (i < 122);
+	} while (i < 123);
 	putchar('\n');
 	return (0);
 }

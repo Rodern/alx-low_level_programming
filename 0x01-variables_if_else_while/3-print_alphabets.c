@@ -14,13 +14,13 @@ int main(void)
 	do {
 		putchar(i);
 		i++;
-	} while (i < 122);
+	} while (i < 123);
 
 	/* starting from 65 to 90, are all uppercase letters */
 	do {
 		putchar(k);
 		k++;
-	} while (k < 90);
+	} while (k < 91);
 	putchar('\n');
 	return (0);
 }
