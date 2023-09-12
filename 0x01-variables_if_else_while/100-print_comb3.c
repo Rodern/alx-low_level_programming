@@ -8,19 +8,28 @@
 int main(void)
 {
 	/* variable for loop */
-	int i = 0, k = 0;
+	int i = 0, k = 0, j = 0, l = 0;
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (k = 1 + i; k <= 9; k++)
+		for (k = 0; k <= 9; k++)
 		{
-			if (k != 1 && i != 9)
+			for (j = 0; j <= 9; j++)
 			{
-				putchar(',');
-				putchar(' ');
+				for (l = 0; l <= 9; l++)
+				{
+					if (k != 0)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					putchar(i + '0');
+					putchar(k + '0');
+					putchar(' ');
+					putchar(j + '0');
+					putchar(l + '0');
+				}
 			}
-			putchar(i + '0');
-			putchar(k + '0');
 		}
 	}
 	putchar('\n');
