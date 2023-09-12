@@ -17,7 +17,7 @@ int main(void)
 		else
 			putchar(i - 10 + 'a');
 		i++;
-	} while (i < 15);
+	} while (i < 16);
 	putchar('\n');
 	return (0);
 }
