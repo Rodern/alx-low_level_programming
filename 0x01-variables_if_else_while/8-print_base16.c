@@ -14,7 +14,7 @@ int main(void)
 	do {
 		putchar(i - 10 + 'a');
 		i--;
-	} while (i < 0);
+	} while (i > 0);
 	putchar('\n');
 	return (0);
 }
