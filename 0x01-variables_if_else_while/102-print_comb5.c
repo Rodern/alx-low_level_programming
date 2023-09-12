@@ -8,7 +8,7 @@
 int main(void)
 {
 	/* variable for loop */
-	int i = 0, k = 0, j = 0, l = 0;
+	int i = 0, k = 0, j = 0, l = 1;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -16,18 +16,18 @@ int main(void)
 		{
 			for (j = 0; j <= 9; j++)
 			{
-				for (l = 0; l <= 9; l++)
+				for (l = 1 + k; l <= 9; l++)
 				{
-					if (k != 0)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 					putchar(i + '0');
 					putchar(k + '0');
 					putchar(' ');
 					putchar(j + '0');
 					putchar(l + '0');
+					if (!(i == 9 && k == 8 && j == 9 && l == 9))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
