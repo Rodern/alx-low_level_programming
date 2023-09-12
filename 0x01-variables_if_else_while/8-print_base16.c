@@ -8,11 +8,11 @@
 int main(void)
 {
 	/* variable for loop */
-	int i = 16;
+	int i = 15;
 
-	/* starting from 16 down to 0, are all hexadeximal numbers in base 16*/
+	/* starting from 15 down to 0, are all hexadeximal numbers in base 16*/
 	do {
-		putchar(i + '0');
+		putchar(i + 10 - 'a');
 		i--;
 	} while (i < 0);
 	putchar('\n');
