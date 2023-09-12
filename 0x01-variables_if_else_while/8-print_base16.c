@@ -12,7 +12,7 @@ int main(void)
 
 	/* starting from 15 down to 0, are all hexadeximal numbers in base 16*/
 	do {
-		putchar(i + 10 - 'a');
+		putchar(i - 10 + 'a');
 		i--;
 	} while (i < 0);
 	putchar('\n');
