@@ -15,14 +15,15 @@ void print_alphabet(void)
 	} while (i < 123);
 }
 
+
 /**
  * main - entry point
  *
  * Return: Always 0
- */
+ *
 int main(void)
 {
 	print_alphabet();
 	_putchar('\n');
 	return (0);
-}
+}*/
