@@ -1,9 +1,8 @@
-#ifndef MAIN1_H
-#define MAIN1_H
+#ifndef _PUTCHAR_H
+#define _PUTCHAR_H
 
 #include <unistd.h>
 
 int _putchar(char c);
-void print_alphabet(void);
 
-#endif /* MAIN1_H */
+#endif /* _PUTCHAR_H */
