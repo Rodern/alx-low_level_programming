@@ -13,17 +13,6 @@ void print_alphabet(void)
 		_putchar(i);
 		i++;
 	} while (i < 123);
+	_putchar('\n');
 }
 
-
-/**
- * main - entry point
- *
- * Return: Always 0
- *
-int main(void)
-{
-	print_alphabet();
-	_putchar('\n');
-	return (0);
-}*/
