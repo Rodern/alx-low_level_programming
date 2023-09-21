@@ -2,6 +2,7 @@
 
 /**
  * _islower - function
+ * @c: The int to b checked
  *
  * Return: (int)
  */
