@@ -10,9 +10,9 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *s = "", *src2;
+	char *s = "", *src2 = "";
 
-	src2 = strcpy(src2, src + n);;
+	src2 = strcpy(src2, src + n);
 	s = strcat(dest, src2);
 	return (s);
 }
