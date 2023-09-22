@@ -23,5 +23,4 @@ void reverse_array(int *a, int n)
 		start++;
 		end--;
 	}
-	return (s);
 }
