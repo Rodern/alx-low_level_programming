@@ -7,9 +7,10 @@
  *
  * return (char*)
  */
-char *_strcat(char *dest, char *src)
+char* _strcat(char* dest, char* src)
 {
 	char* s = "";
+
 	s = strcat(dest, src);
 	return (s);
 }
