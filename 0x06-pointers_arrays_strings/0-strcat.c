@@ -5,11 +5,11 @@
  * @dest: string 1
  * @src: string 2
  *
- * return (char*)
+ * Return: (char*)
  */
-char* _strcat(char* dest, char* src)
+char *_strcat(char *dest, char *src)
 {
-	char* s = "";
+	char *s = "";
 
 	s = strcat(dest, src);
 	return (s);
