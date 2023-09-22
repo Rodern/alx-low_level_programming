@@ -1,7 +1,7 @@
 #include <string.h>
 
 /**
- * _strcat - function
+ * _strncat - function
  * @dest: string 1
  * @src: string 2
  * @n: integer
