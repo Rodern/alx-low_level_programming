@@ -11,18 +11,17 @@
 char *string_toupper(char *a)
 {
 	int i = 0;
-	char *s = malloc(sizeof(char) * strlen(a));
 
-	for (i = 0; i <= strlen(a) - 1; i++)
+	for (i = 0; a[i]; i++)
 	{
 		if (i == strlen(a) - 1)
 		{
-			s[i] = a[i];
+			a[i] = a[i];
 		}
 		else
 		{
-			s[i] = toupper(a[i]);
+			a[i] = toupper(a[i]);
 		}
 	}
-	return (s);
+	return (a);
 }
