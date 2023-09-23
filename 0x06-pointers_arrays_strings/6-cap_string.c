@@ -16,6 +16,7 @@ char *cap_string(char *a)
 	{
 		if (a[i] == ' ' || a[i] == '.' || a[i] == '-' || a[i] == '_' || a[i] == '\n'
 				|| a[i] == '\t' || (isdigit(a[i]) && (a[i + 1] >= 97 && a[i + 1] <= 122)))
+		{
 			a[i + 1] = toupper(a[i + 1]);
 		}
 	}
